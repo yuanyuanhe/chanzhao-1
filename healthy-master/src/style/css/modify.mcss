@@ -1,0 +1,6 @@
+.ul li{display:flex;justify-content:space-around;height:50px;line-height:30px;margin-bottom:30px}
+.ul li:nth-child(1) span{width:220px}
+.ul li:nth-child(2) span{width:220px}
+.ul li:nth-child(3) span{width:200px}
+.ul li:nth-child(5) span{width:320px}
+.ul li:nth-child(6) span{width:320px}

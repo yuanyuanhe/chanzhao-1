@@ -1,0 +1,11 @@
+#MenuContent :global(.ant-tabs-nav-scroll .ant-tabs-nav .ant-tabs-ink-bar) {
+  width: 100px;
+}
+#MenuContent :global(.ant-tabs-nav .ant-tabs-tab) {
+  margin: 0;
+}
+#MenuContent :global(.ant-menu-inline > .ant-menu-submenu > .ant-menu-submenu-title) {
+  height:56px !important;
+  line-height:56px !important;
+  padding-left: 30px !important;
+}

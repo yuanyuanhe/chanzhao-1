@@ -1,0 +1,177 @@
+.org{margin:20px;width:100%;}
+.head{width:100%;height:50px;line-height:50px;}
+.city{display:flex;justify-content: space-around;margin-top:20px;height:74px;line-height:74px;text-align:center;width:1300px}
+.program{height:74px;line-height:30px;text-align:center;display:flex;justify-content:space-around;}
+.tTable{background:rgba(232,119,34,0.05);;display:flex;justifyContent:space-around;text-align:center;width:1600px;height:50px;line-height:50px;color: #666666;font-weight:bold;margin-top:10px;}
+.tTable span:nth-child(1){flex:1}
+.tTable span:nth-child(2){flex:1}
+.tTable span:nth-child(3){flex:1}
+.tTable span:nth-child(4){flex:1}
+.tTable span:nth-child(6){flex:1}
+.tTable span:nth-child(6){flex:1}
+.tTable span:nth-child(7){flex:1}
+.tTable span:nth-child(8){flex:1}
+.tDetail{display:flex;justifyContent:space-around;text-align:center;width:1600px;height:50px;line-height:50px;font-size:13px;}
+.tDetail span:nth-child(1){flex:1}
+.tDetail span:nth-child(2){flex:1}
+.tDetail span:nth-child(3){flex:1}
+.tDetail span:nth-child(4){flex:1}
+.tDetail span:nth-child(5){flex:1}
+.tDetail span:nth-child(6){flex:1}
+.tDetail span:nth-child(7){flex:1}
+.tDetail span:nth-child(8){flex:1}
+.Wraper{
+  font-family: MicrosoftYaHei;
+  font-size: 14px;
+}
+.Wraper .Model-head{
+  font-size: 20px;
+  color: #333333;
+  background: #F4F4F4;
+    height: 56px;
+    line-height: 56px;
+    padding-left: 40px;
+}
+.Wraper .Content{
+  padding: 30px 50px 40px 40px;
+  overflow-Y:scroll;
+  height:490px;
+}
+.Wraper .Content .appointment-info li:nth-last-child(2),.Wraper .Content .appointment-info li:last-child{
+  margin-bottom:0px;
+}
+.Wraper .appointment-info{
+  margin-bottom: 0;
+}
+.Title{
+  margin-top:30px;
+  font-family: MicrosoftYaHei;
+font-size: 16px;
+color: #333333;
+margin-bottom:20px;
+}
+.Wraper .Content li{
+color: red;
+line-height: 20px;
+margin-bottom:20px;
+height: 34px;
+text-align:right;
+}
+.Wraper .Content ul li :global( .ant-time-picker ){
+width:150px;
+margin-right: 0;
+}
+.Wraper .Content ul li :global(.ant-upload .ant-btn){
+border: 1px solid #E5E5E5;
+border-radius: 4px;
+    padding: 0 px;
+    height: 34px;
+    background: #fff;
+    color: #666666;
+        width: 104px;
+}
+.Wraper .Content ul li :global(.ant-upload .ant-btn) span{
+  width:auto;
+}
+.Wraper .Content ul li :global( .ant-time-picker) input{
+width:150px;
+}
+.Wraper .Content li:nth-child(odd){
+  text-align:left;
+}
+.Wraper .Content li:nth-child(even){
+  text-align:right;
+}
+.Wraper .Content li:last-child{
+  margin-bottom:0px;
+}
+.col-md-2{
+float:left;
+width:50%;
+}
+
+.Wraper .Content li span{
+  display:inline-block;
+  width:100px;
+color: #999999;
+text-align: right;
+margin-right:20px;
+    vertical-align: middle;
+}
+.Wraper .Content li span.col-666{
+color: #666666;
+margin-right:10px;
+}
+:global(.ant-modal-wrap .ant-modal .ant-modal-content .ant-modal-body) {
+  padding:0
+}
+:global(.ant-cascader-menus ul.ant-cascader-menu) {
+  padding:0
+}
+.Wraper .Content li :global(.ant-time-picker  .ant-time-picker-icon) {
+  display:inline-block;
+  width:auto;
+  margin-right:0;
+}
+.Wraper .Content li :global(.ant-select-arrow) {
+  width:auto;
+  margin-right:0;
+}
+.Wraper .Content li :global(.ant-calendar-picker) {
+  width:auto;
+}
+.tips{
+position:relative;
+display:inline-block;
+height:34px;
+}
+.Wraper .Content li .container{
+  display:inline-block;
+}
+.Wraper .Content li .container span{
+  display:inline-block;
+width:74px;
+height:24px;
+line-height:23px;
+background: rgba(232,119,34,0.05);
+border: 1px solid #E87722;
+border-radius: 3px;
+margin-right:10px;
+font-size: 12px;
+color: #E87722;
+text-align:center;
+}
+.Wraper .Content li .container span:last-child{
+  margin-right:0px;
+}
+.Wraper .Content li.lh20{
+  height:34px;
+  line-height:34px;
+}
+:global(.ant-modal-wrap .ant-modal .ant-modal-content .ant-modal-footer .ant-btn.ant-btn-primary) {
+  margin-left:30px;
+  color: #fff;
+  background: #E87722;
+}
+:global(.ant-modal-wrap .ant-modal .ant-modal-content .ant-modal-footer .ant-btn) {
+  width:120px;
+  height:44px;
+  line-height:44px;
+  padding:0;
+border-color: #E5E5E5;
+border-radius: 4px;
+font-family: MicrosoftYaHei;
+font-size: 16px;
+color: #666666;
+}
+:global(.ant-modal-wrap .ant-modal .ant-modal-content .ant-modal-footer) {
+  border-top:none;
+  padding-bottom:30px;
+  text-align: center;
+}
+li.lh20 :global(.ant-select.ant-select-enabled ){
+    margin-right: 20px;
+}
+.Wraper .Content .Title:first-child{
+  margin-top:0;
+}

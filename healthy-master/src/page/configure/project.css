@@ -1,0 +1,28 @@
+.main1 li{
+    display: inline-block;
+    cursor: pointer;
+}
+/* .main1 li a{
+    color: gray;
+    height: 40px;
+    width: 100px;
+    display: inline-block;
+    line-height: 40px;
+    margin-top: 10px;
+    text-align: center;
+} */
+.clearFix{
+    border-bottom: 1px solid #E5E5E5;
+}
+.active{
+    width: 100px;
+    border-bottom: 1px solid #E87722;
+    color: #E87722
+}
+.layer-title {
+    background-color: #F4F4F4 !important;
+    color: #333333 !important
+}
+.layer-title i{
+    color: #333333 !important
+}

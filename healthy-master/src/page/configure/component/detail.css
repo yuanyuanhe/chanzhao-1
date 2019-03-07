@@ -1,0 +1,8 @@
+.title{font-size: 18px;background: #cccccc;height:50px;width:100%;line-height: 50px;font-weight: bold;}
+.title span:nth-child(1){float: left;margin-left:30px;}
+.title span:nth-child(2){float: right;margin-right:30px;}
+.name{margin-left: 70px;clear: both;text-align: left;width:100%;}
+.name span:nth-child(1){width:100px;background: "red"}
+.name span:nth-child(2){width:400px}
+.name span:nth-child(3){width:100px}
+.name span:nth-child(4){width:400px}

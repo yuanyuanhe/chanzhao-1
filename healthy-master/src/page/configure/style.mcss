@@ -1,0 +1,90 @@
+.org{margin:20px;width:100%;}
+.head{width:100%;height:50px;line-height:50px;background:#cccccc}
+.city{display:flex;justify-content: space-around;margin-top:20px;height:74px;line-height:74px;text-align:center;width:1300px}
+.program{height:74px;line-height:30px;text-align:center;display:flex;justify-content:space-around;}
+.tTable{background:rgba(232,119,34,0.05);;display:flex;justifyContent:space-around;text-align:center;width:1600px;height:50px;line-height:50px;color: #666666;font-weight:bold;margin-top:10px;}
+.tTable span:nth-child(1){flex:1}
+.tTable span:nth-child(2){flex:1}
+.tTable span:nth-child(3){flex:1}
+.tTable span:nth-child(4){flex:1}
+.tTable span:nth-child(6){flex:1}
+.tTable span:nth-child(6){flex:1}
+.tTable span:nth-child(7){flex:1}
+.tTable span:nth-child(8){flex:1}
+.tDetail{display:flex;justifyContent:space-around;text-align:center;width:1600px;height:50px;line-height:50px;font-size:13px;}
+.tDetail span:nth-child(1){flex:1}
+.tDetail span:nth-child(2){flex:1}
+.tDetail span:nth-child(3){flex:1}
+.tDetail span:nth-child(4){flex:1}
+.tDetail span:nth-child(5){flex:1}
+.tDetail span:nth-child(6){flex:1}
+.tDetail span:nth-child(7){flex:1}
+.tDetail span:nth-child(8){flex:1}
+.Content li span{
+  display:inline-block;
+  width:115px;
+color: #999999;
+text-align: right;
+margin-right:20px;
+    vertical-align: middle;
+}
+.Content li span.col-666{
+color: #666666;
+margin-right:10px;
+}
+.Content li :global(.ant-time-picker  .ant-time-picker-icon) {
+  display:inline-block;
+  width:auto;
+  margin-right:0;
+}
+.Content li :global(.ant-select-arrow) {
+  width:auto;
+  margin-right:0;
+}
+.Content li :global(.ant-calendar-picker) {
+  width:auto;
+}
+.col-md-2{
+float:left;
+width:50%;
+}
+.col-md-1{
+float:left;
+width:100%;
+}
+li.col-md-1 :global(.ant-select.ant-select-enabled){
+  margin-right:20px;
+}
+li.col-md-1 input{
+
+}
+:global(.ant-btn.ant-btn-primary span) {
+  margin-right:0;
+  text-align:center;
+  color: #fff;
+}
+:global(.ant-btn.ant-btn-primary){
+  color: #fff;
+  background: #E87722;
+  border-color: #E87722;
+}
+:global(.ant-btn-primary, .ant-btn-primary.active):active{
+  color: #fff;
+  background: #E87722;
+  border-color: #E87722;
+}
+:global(.ant-btn-primary.active){
+  color: #fff;
+  background: #E87722;
+  border-color: #E87722;
+}
+:global(.ant-btn.ant-btn-primary):hover{
+  color: #fff;
+  background: #E87722;
+  border-color: #E87722;
+}
+:global(.ant-btn.ant-btn-primary):focus{
+  color: #fff;
+  background: #E87722;
+  border-color: #E87722;
+}

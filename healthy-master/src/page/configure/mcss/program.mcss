@@ -1,0 +1,4 @@
+.projectadd{padding:10px}
+.projectadd li{display:flex;margin-top:10px}
+.projectadd li Input{flex:1}
+.projectadd li span{flex:1;text-align:center}

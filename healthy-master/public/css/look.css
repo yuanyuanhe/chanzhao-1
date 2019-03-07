@@ -1,0 +1,212 @@
+.col-md-2{
+float:left;
+width:50%;
+}
+
+/*.msg{
+  padding:30px 0px;
+  width:100%;
+  background:#fff;
+}
+.Content{
+  padding:0 70px;
+}
+.Model-head{
+  font-size: 20px;
+  color: #333333;
+  background: #F4F4F4;
+    height: 56px;
+    line-height: 56px;
+    padding-left: 40px;
+    border-bottom:1px solid #e5e5e5;
+}
+.msg ul{
+  
+  position: relative;
+}
+.Title{
+  margin-top:0px;
+  font-family: MicrosoftYaHei;
+font-size: 16px;
+color: #333333;
+margin-bottom:20px;
+}
+.msg ul li:not(:first-child){
+color: #666666;
+line-height: 20px;
+margin-bottom:20px;
+height: 34px;
+}
+.msg ul .avatar {
+  width:200px;
+  height:200px;
+  top:60px;
+  right:70px;
+  position: absolute;
+}
+.msg ul .avatar img{
+  width:100%;
+  height:100%;
+}*/
+.col-md-1{
+float:left;
+width:100%;
+}
+.institution{
+  margin-bottom: 40px;
+}
+.institutionName .designation h3{
+  margin-bottom: 12px;
+  font-size: 22px;
+  color: #333333;
+}
+.institutionName img{
+width:180px;
+height:140px;
+margin-right:22px;
+}
+.institutionName .designation>ul>li>span{
+font-size: 14px;
+color: #999999;
+}
+.institutionName>ul>li{
+  font-size: 14px;
+color: #666666;
+}
+.quota{
+width: 220px;
+height: 140px;
+background: rgba(232,119,34,0.05);
+border: 1px solid rgba(232,119,34,0.20);
+padding: 14px 20px;
+}
+.quota h5{
+  margin-bottom: 26px;
+  font-size: 16px;
+  color: #333333;
+  line-height: 21px;
+  height: 21px;
+}
+.quota div{
+  font-size: 14px;
+  color: #666666;
+  line-height: 24px;
+  height: 24px;
+}
+.quota div:not(:last-child){
+  margin-bottom: 10px;
+}
+.quota div span{
+  font-size: 14px;
+  color: #666666;
+ 
+}
+.quota div i{
+  font-size: 24px;
+  color: #E87722;
+    height: 24px;
+    display: inline-block;
+    vertical-align: sub;
+    margin-left: 20px;
+    margin-right: 3px;
+    font-family: DINAlternate-Bold;
+}
+.introduce span{
+  display: inline-block;
+width: 70px;
+height: 20px;
+font-size: 14px;
+color: #999999;
+text-align: right;
+margin-right: 20px;
+    float: left;
+}
+.introduce {
+font-size: 14px;
+color: #666666;
+line-height: 22px;
+margin-bottom: 30px;
+}
+.tips span{
+  float: left;
+  display: inline-block;
+width: 70px;
+height: 20px;
+font-size: 14px;
+color: #999999;
+text-align: right;
+margin-right: 20px;
+}
+.tips {
+font-size: 14px;
+color: #666666;
+line-height: 22px;
+}
+.operation{
+  margin-bottom: 30px;
+}
+.operation .addProject{
+  width: 100px;
+  height: 36px;
+  line-height: 36px;
+  background: #E87722;
+border-radius: 4px;
+font-size: 14px;
+color: #FFFFFF;
+margin-right: 10px;
+}
+.operation .removeProject{
+  width: 100px;
+  height: 36px;
+  line-height: 36px;
+  border: 1px solid #E5E5E5;
+border-radius: 4px;
+background: #FFFFFF;
+font-size: 14px;
+color: #666666;
+}
+.box1 .operation input{
+  width: 250px;
+}
+.box1 .checkboxList li{
+  margin-bottom: 15px;
+  height: 42px;
+  line-height: 42px;
+  
+}
+.box1 .checkboxList li .price{
+  font-family: DINAlternate-Bold;
+font-size: 24px;
+color: #E87722;
+  
+}
+.box1 .checkboxList li .price i{
+font-size: 14px;
+}
+.box1 .checkboxList li .ant-checkbox-group-item{
+  color: #666666;
+  
+}
+.box1 .checkboxList li:not(:first-child){
+  border-bottom:1px solid #F4F4F4; 
+}
+.box1 .checkboxList.combo li:not(:first-child){
+width: 270px;
+height: 144px;
+background: #FFFFFF;
+border: 1px solid #E5E5E5;
+padding: 20px 0 10px 20px;
+margin-right: 20px;
+position: relative;
+}
+.box1 .checkboxList.combo li:nth-child(4n+1){
+margin-right: 0;
+}
+.box1 .checkboxList.combo li .ant-checkbox-group .ant-checkbox{
+position: absolute;
+left: 0;
+}
+.box1 .checkboxList.combo li:not(:first-child):hover{
+  border: 1px solid #DEDEDE;
+box-shadow: 0 2px 13px 0 #DEDEDE;
+}
